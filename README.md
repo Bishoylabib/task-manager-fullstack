@@ -227,7 +227,7 @@ frontend/task-manager-frontend
 <img src="./screenshots/signup.png" width="750px" alt="Signup Page">
 
 **Task Dashboard**  
-<img src="./screenshots/tasks-dashboard.png" width="800px" alt="Task Dashboard">
+<img src="./screenshots/tasks-dashboard.png" width="750px" alt="Task Dashboard">
 
 ---
 
