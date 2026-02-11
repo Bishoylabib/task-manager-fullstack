@@ -71,3 +71,50 @@ export default defineConfig([
   },
 ])
 ```
+
+```
+task-manager-frontend
+├─ eslint.config.js
+├─ index.html
+├─ package-lock.json
+├─ package.json
+├─ public
+│  └─ vite.svg
+├─ README.md
+├─ src
+│  ├─ api
+│  │  └─ axios.ts
+│  ├─ App.css
+│  ├─ App.tsx
+│  ├─ assets
+│  │  └─ react.svg
+│  ├─ auth
+│  │  ├─ auth.api.ts
+│  │  ├─ auth.service.ts
+│  │  ├─ auth.types.ts
+│  │  ├─ AuthContext.tsx
+│  │  ├─ AuthProvider.tsx
+│  │  └─ useAuth.ts
+│  ├─ context
+│  ├─ index.css
+│  ├─ main.tsx
+│  ├─ pages
+│  │  ├─ AuthLoader.tsx
+│  │  ├─ Login.tsx
+│  │  ├─ Signup.tsx
+│  │  └─ Tasks.tsx
+│  ├─ routes
+│  │  └─ ProtectedRoute.tsx
+│  ├─ tasks
+│  │  ├─ task.types.ts
+│  │  ├─ tasks.api.ts
+│  │  └─ tasks.service.ts
+│  └─ users
+│     ├─ users.api.ts
+│     └─ users.service.ts
+├─ tsconfig.app.json
+├─ tsconfig.json
+├─ tsconfig.node.json
+└─ vite.config.ts
+
+```

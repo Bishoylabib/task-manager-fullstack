@@ -96,3 +96,61 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
+
+```
+task-mgr-backend
+├─ .prettierrc
+├─ eslint.config.mjs
+├─ nest-cli.json
+├─ package-lock.json
+├─ package.json
+├─ prisma
+│  ├─ migrations
+│  │  ├─ 20260208132505_init
+│  │  │  └─ migration.sql
+│  │  └─ migration_lock.toml
+│  └─ schema.prisma
+├─ prisma.config.ts
+├─ README.md
+├─ src
+│  ├─ app.controller.spec.ts
+│  ├─ app.controller.ts
+│  ├─ app.module.ts
+│  ├─ app.service.ts
+│  ├─ auth
+│  │  ├─ auth.controller.spec.ts
+│  │  ├─ auth.controller.ts
+│  │  ├─ auth.module.ts
+│  │  ├─ auth.service.spec.ts
+│  │  ├─ auth.service.ts
+│  │  ├─ dto
+│  │  │  ├─ login.dto.ts
+│  │  │  └─ signup.dto.ts
+│  │  └─ jwt.strategy.ts
+│  ├─ generated
+│  ├─ main.ts
+│  ├─ prisma
+│  │  └─ prisma.module.ts
+│  ├─ prisma.service.ts
+│  ├─ tasks
+│  │  ├─ dto
+│  │  │  ├─ create-task.dto.ts
+│  │  │  └─ update-task.dto.ts
+│  │  ├─ tasks.controller.spec.ts
+│  │  ├─ tasks.controller.ts
+│  │  ├─ tasks.module.ts
+│  │  ├─ tasks.service.spec.ts
+│  │  └─ tasks.service.ts
+│  └─ users
+│     ├─ users.controller.spec.ts
+│     ├─ users.controller.ts
+│     ├─ users.module.ts
+│     ├─ users.service.spec.ts
+│     └─ users.service.ts
+├─ test
+│  ├─ app.e2e-spec.ts
+│  └─ jest-e2e.json
+├─ tsconfig.build.json
+└─ tsconfig.json
+
+```
