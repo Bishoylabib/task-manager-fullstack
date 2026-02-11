@@ -216,6 +216,21 @@ frontend/task-manager-frontend
     
 ---
 
+📸 **Screenshots**
+
+### Frontend
+
+**Login Page**  
+<img src="./screenshots/login.png" width="750px" alt="Login Page">
+
+**Signup Page**  
+<img src="./screenshots/signup.png" width="750px" alt="Signup Page">
+
+**Task Dashboard**  
+<img src="./screenshots/tasks-dashboard.png" width="800px" alt="Task Dashboard">
+
+---
+
 ## 🚀 Getting Started
 
 ### Frontend
